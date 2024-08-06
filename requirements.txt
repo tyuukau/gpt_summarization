@@ -1,0 +1,6 @@
+promptlayer
+ipykernel
+openai
+python-dotenv
+pymupdf
+typing_extensions
