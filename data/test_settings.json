@@ -24,7 +24,8 @@
     "en_example_04.txt": {
         "desired_word_count": [
             250,
-            500
+            500,
+            750
         ],
         "comment": "English. Article. 5000 words"
     },
