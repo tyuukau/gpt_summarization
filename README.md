@@ -104,16 +104,21 @@ Example of `test_settings.json`:
 
 ```json
 {
-    "en_example_1.txt": [
-        100,
-        250,
-        300
-    ],
-    "sk_example_2.txt": [
-        150,
-        200,
-        250
-    ]
+    "en_example_01.pdf": {
+        "desired_word_count": [
+            250,
+            500,
+            1000
+        ],
+        "comment": "English. Wikipedia. 15k words"
+    },
+    "en_example_02.txt": {
+        "desired_word_count": [
+            150,
+            200
+        ],
+        "comment": "English. Essay. 1000 words"
+    }
 }
 ```
 
