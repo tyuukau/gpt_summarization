@@ -38,7 +38,16 @@ Install the required packages listed in `requirements.txt`:
 pip install -r requirements.txt
 ```
 
-### 3. Provide a .env file wi
+### 3. Provide a .env file with the following information
+
+```bash
+OPENAI_API_KEY=sk-proj-...
+PROMPTLAYER_API_KEY=pl_...
+```
+
+Place the .env file at the top level of the repository, ensuring it is at the same level as the summarizer_app folder.
+
+PromptLayer is a helpful tool used to log the prompts and their responses. Head over to [PromptLayer](https://promptlayer.com) to generate an API key.
 
 ## Run the application
 
